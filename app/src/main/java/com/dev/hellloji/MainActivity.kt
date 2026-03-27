@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
         bottomNav.setOnItemSelectedListener { item ->
             when (item.itemId) {
                 R.id.nav_wallet -> replaceFragment(WalletFragment())
-                R.id.nav_home -> replaceFragment(HomeFragment())
                 R.id.nav_ranking -> replaceFragment(RankingFragment())
+                R.id.nav_home -> replaceFragment(HomeFragment())
                 R.id.nav_profile -> replaceFragment(ProfileFragment())
             }
             true // Iska matlab humne button click successully handle kar liya
